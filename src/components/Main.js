@@ -8,6 +8,7 @@ import CourseContainer from '../containers/CourseContainer'
 import Head from './Head'
 
 class Main extends Component {
+
   render() {
     return (
       <Router>

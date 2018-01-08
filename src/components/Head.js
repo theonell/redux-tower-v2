@@ -5,6 +5,7 @@ import '../assets/global.css'
 
 class Head extends Component {
   render() {
+
     return (
       <Wrap>
         <Link to='/'>home</Link>
