@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom'
 import HomeContainer from '../containers/HomeContainer'
 import CourseContainer from '../containers/CourseContainer'
-import Head from './Head';
+import Head from './Head'
 
 class Main extends Component {
   render() {
