@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
-import store from '../store'
 
 class Home extends Component {
 
   render() {
-    console.log(store.getState())
+    const { courses } = this.props
+    console.log(courses)
+
     return (
       <div>
         home
